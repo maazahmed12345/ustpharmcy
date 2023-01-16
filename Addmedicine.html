@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body{
+            margin: 20px 0;
+          box-sizing: border-box;
+          background-size: cover;
+          
+        }
+        input{
+     margin: 5px;
+     border-radius: 30px;
+     border-color: blue;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          padding: 12px 20px;  
+        }
+        nav ul{
+            float: right;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            margin-right: 45px;
+        
+        }
+        nav ul li{
+            color: aqua;
+            padding: 0 15px;
+        }
+        nav ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        font-family: monospace;
+        }
+    </style>
+
+        <nav>
+            <ul>
+        
+                     <li>
+                            <a href="buttom.html">Logout</a>
+                     </li>
+                                
+                          
+                
+            </ul>
+        </nav>
+      
+    
+</head>
+<body background="15.jpg">
+   
+    <center>
+    <br>
+    <form action="Addmedicine.php" method="post">
+        <br>
+        <br>
+        <br>
+        <input type="number" name="no" placeholder="رقم الدواء"><br>
+        <input type="text" name="name" placeholder="اسم الدواء"><br>
+       <br>
+        <input type="text" name="Scientific" placeholder="الاسم العلمي"><br>
+        <br>
+        <input type="text" name="Production" placeholder=" تاريخ الانتاج"><br>
+        <br>
+     <input type="text" name="Expiry" placeholder=" تاريخ الانتهاء"><br>
+     <br>
+     <input type="text" name="prise" placeholder="السعر">
+     <br>
+     <input type="submit" value="Insert" name="insert" style="padding:8px; background-color:rgb(255, 255, 255)">
+     <input type="submit" value="Select" name="select" style="padding:8px; background-color:rgb(255, 255, 255)">
+     <input type="submit" value="Update" name="update" style="padding:8px; background-color:rgb(255, 255, 255)">
+     <input type="submit" value="Delete" name="delete" style="padding:8px; background-color:rgb(255, 255, 255)">
+    </form>
+</center>
+
+    
+</body>
+</html>
